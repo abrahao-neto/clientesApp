@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.API", "ClientesApp.API\ClientesApp.API.csproj", "{54F6335E-4512-4ACF-BD4E-E1EAE72A7F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesApp.API", "ClientesApp.API\ClientesApp.API.csproj", "{54F6335E-4512-4ACF-BD4E-E1EAE72A7F30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - PRESENTATION", "1 - PRESENTATION", "{AB121185-B446-430F-A072-93A51F660C7A}"
 EndProject
@@ -13,18 +13,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DOMAIN", "3 - DOMAIN", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - INFRASTRUCTURE", "4 - INFRASTRUCTURE", "{A38E2C27-EDDF-477E-94CD-D8C24DF24C85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.Application", "ClientesApp.Application\ClientesApp.Application.csproj", "{7D598949-7E90-459D-8A39-FFD5A6B16F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesApp.Application", "ClientesApp.Application\ClientesApp.Application.csproj", "{7D598949-7E90-459D-8A39-FFD5A6B16F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.Domain", "ClientesApp.Domain\ClientesApp.Domain.csproj", "{B87DD9D4-31C7-44B9-B45B-DADEBA8F2841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesApp.Domain", "ClientesApp.Domain\ClientesApp.Domain.csproj", "{B87DD9D4-31C7-44B9-B45B-DADEBA8F2841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.Infra.Data.SqlServer", "ClientesApp.Infra.Data.SqlServer\ClientesApp.Infra.Data.SqlServer.csproj", "{81595B0A-E0EE-4B26-90CB-EDEE5F0EAE13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesApp.Infra.Data.SqlServer", "ClientesApp.Infra.Data.SqlServer\ClientesApp.Infra.Data.SqlServer.csproj", "{81595B0A-E0EE-4B26-90CB-EDEE5F0EAE13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.Infra.Data.MongoDB", "ClientesApp.Infra.Data.MongoDB\ClientesApp.Infra.Data.MongoDB.csproj", "{CE53B395-461A-42A7-8358-ABA3D5A50B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesApp.Infra.Data.MongoDB", "ClientesApp.Infra.Data.MongoDB\ClientesApp.Infra.Data.MongoDB.csproj", "{CE53B395-461A-42A7-8358-ABA3D5A50B93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{E285A4FE-0E09-4372-BBF9-9769287131D3}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.Infra.Data.SqlServer.Tests", "ClientesApp.Infra.Data.SqlServer.Tests\ClientesApp.Infra.Data.SqlServer.Tests.csproj", "{2D1A1100-C5C9-488C-800E-BB7E21AEC402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +54,10 @@ Global
 		{CE53B395-461A-42A7-8358-ABA3D5A50B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE53B395-461A-42A7-8358-ABA3D5A50B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE53B395-461A-42A7-8358-ABA3D5A50B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1A1100-C5C9-488C-800E-BB7E21AEC402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1A1100-C5C9-488C-800E-BB7E21AEC402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1A1100-C5C9-488C-800E-BB7E21AEC402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1A1100-C5C9-488C-800E-BB7E21AEC402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{B87DD9D4-31C7-44B9-B45B-DADEBA8F2841} = {5DA12BAF-41F6-4942-9F17-851875369274}
 		{81595B0A-E0EE-4B26-90CB-EDEE5F0EAE13} = {A38E2C27-EDDF-477E-94CD-D8C24DF24C85}
 		{CE53B395-461A-42A7-8358-ABA3D5A50B93} = {A38E2C27-EDDF-477E-94CD-D8C24DF24C85}
+		{2D1A1100-C5C9-488C-800E-BB7E21AEC402} = {A38E2C27-EDDF-477E-94CD-D8C24DF24C85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D78EB1B-5DAF-4EEB-AB50-10F4C0A91D43}
