@@ -1,11 +1,16 @@
 ﻿using ClientesApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ClientesApp.Infra.Data.SqlServer.Mappings
 {
     /// <summary>
-    /// Classe de mapeamento para entidade Cliente (FluentApi)
+    /// Classe de mapeamento para a entidade Cliente (FluentApi)
     /// </summary>
     public class ClienteMap : IEntityTypeConfiguration<Cliente>
     {
